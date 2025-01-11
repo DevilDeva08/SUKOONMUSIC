@@ -34,7 +34,7 @@ OWNER_ID = int(getenv("OWNER_ID","7538572906"))
 
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Bsdk0007/Zoyu1radhe",
+    "https://github.com/DevilDeva08/SUKOONMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+L3GX3pB-SQ85Njdl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT","")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+QczNRWRJTwExMjI1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/+5OvbARPKKbs1M2Rl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
